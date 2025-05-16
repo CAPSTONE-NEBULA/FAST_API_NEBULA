@@ -5,10 +5,12 @@ Sebuah mini-proyek berbasis FastAPI yang dapat memprediksi kelayakan siswa mener
 
 ## 📁 Struktur File
 
-├── main.py                # Endpoint API utama
-├── dt_model.pkl           # File model Decision Tree yang telah dilatih
-├── preprocessor.pkl       # File preprocessor (ColumnTransformer) yang telah dilatih
-├── requirements.txt       # Daftar dependensi Python
+| File/Folder         | Deskripsi                                                    |
+|---------------------|--------------------------------------------------------------|
+| `main.py`           | Endpoint API utama                                           |
+| `dt_model.pkl`      | File model Decision Tree yang telah dilatih                  |
+| `preprocessor.pkl`  | File preprocessor (ColumnTransformer) yang telah dilatih     |
+| `requirements.txt`  | Daftar dependensi Python                                     |
 
 
 ## 🚀 Fitur API
@@ -54,37 +56,69 @@ Buka browser ke:
 ## 🧪 JSON Input
 
 {
+
   "JK": 1,
+  
   "RT": 2,
+  
   "RW": 3,
+  
   "Kelurahan": 4,
+  
   "Kecamatan": 5,
+  
   "Kode Pos": 12345,
+  
   "Jenis Tinggal": 1,
+  
   "Alat Transportasi": 2,
+  
   "Penerima KPS": 0,
+  
   "Data Ayah - Tahun Lahir": 1970,
+  
+  
   "Data Ayah - Jenjang Pendidikan": 4,
+  
   "Data Ayah - Pekerjaan": 2,
+  
   "Data Ayah - Penghasilan": 4000000,
+  
   "Data Ibu - Tahun Lahir": 1975,
+  
   "Data Ibu - Jenjang Pendidikan": 4,
+  
   "Data Ibu - Pekerjaan": 2,
+  
   "Data Ibu - Penghasilan": 3000000,
+  
   "Anak ke-berapa": 2,
+  
   "Berat Badan": 45.5,
+  
   "Tinggi Badan": 150.0,
+  
   "Jml. Saudara\r\nKandung": 1,
+  
   "Jarak Rumah\r\nke Sekolah (KM)": 2.5,
+  
   "Total Penghasilan": 7000000,
+  
   "Agama_Islam": 1,
+  
   "Agama_Katholik": 0,
+  
   "Agama_Kristen": 0
+
 }
+
 
 ## ✅ Output
 
 {
+
   "prediction": 1,
+  
   "status": "Layak"
+  
 }
