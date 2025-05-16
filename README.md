@@ -48,7 +48,8 @@ fastapi dev main.py
 ### 5. Akses Swagger UI
 
 Buka browser ke:  
-👉 {http://127.0.0.1:8000](http://127.0.0.1:8000/docs) 
+👉 {http://127.0.0.1:8000]
+(http://127.0.0.1:8000/docs) 
 
 ## 🧪 JSON Input
 
